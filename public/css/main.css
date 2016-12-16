@@ -1,0 +1,82 @@
+img{
+	max-width: 100%
+}
+.quitar-float{
+	float: none;
+}
+.espacio-arriba{
+	margin-top: 70px;
+}
+.espacio-derecha{
+	margin-right: 30px;
+}
+
+/*---listas --*/
+.no-lista{
+	margin: 0px;
+	padding: 0px;
+}
+.no-lista li{
+	list-style-type:none;
+}
+.padding-largo{
+	padding: 5px 10px;
+}
+.se-girs{
+	background-color: #eee;
+}
+
+/*--- alineado ---*/
+.inline-block{
+	float: none;
+	display: inline-block;
+	margin-right: -4px;
+}
+
+/*----links ---*/
+a, .azul{
+	color: #0099f9;
+}
+/*--- alineacion vertical (solo funciona cuando esta en inline-block) --*/
+.alineacion-arriba{
+	vertical-align: top;
+}
+.alineacion-media{
+	vertical-align: middle;
+}
+
+
+/*----fuentes--*/
+.Pacifico{
+	font-family: 'Pacifico', cursive;
+}
+.Lato{
+	font-family: 'Lato', sans-serif;
+}
+.txtGrande{
+	font-size: 4em;	
+}
+.verde{
+	color: #0A6365;
+}
+a{
+	color: #C3626A;
+}
+.mediano{
+	font-size: 1.5em;
+
+}
+
+/*---- animaciones css ---*/
+.retraso-1{
+	/*--retrasa la animacion 1 segundo ---*/
+	-webkit-animation-delay: 1s; /*--como es nueva, aseguramos que funcione en chome y safari--*/
+	-moz-animation-delay: 1s; /*---como es nueva, aseguramos que funcione en mozilla--*/
+	animation-delay: 1s; /*--- cuando ya funcione completamente bien, esta bastara --*/
+}
+.retraso-2{
+	/*--retrasa la animacion 1 segundo ---*/
+	-webkit-animation-delay: 2s; /*--como es nueva, aseguramos que funcione en chome y safari--*/
+	-moz-animation-delay: 2s; /*---como es nueva, aseguramos que funcione en mozilla--*/
+	animation-delay: 2s; /*--- cuando ya funcione completamente bien, esta bastara --*/
+}
